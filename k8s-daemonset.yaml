@@ -1,7 +1,7 @@
 apiVersion: apps/v1beta2
 kind: DaemonSet
 metadata:
-  name: kubernetes-daemonset
+  name: k8s-daemonset
 spec:
   selector:
     matchLabels:
